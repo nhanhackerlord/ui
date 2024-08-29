@@ -250,7 +250,7 @@ do
     Title.Position = UDim2.new(0.05, 0, 0.04, 0)
     Title.Size = UDim2.new(0, 483, 0, 31)
     Title.Font = Enum.Font.GothamBold
-    Title.Text = "Mura Hub".."<font color='rgb(46, 184, 28)'>PREMIUM VERSION </font>".."- "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+    Title.Text = "Mura Hub ".."<font color='rgb(46, 184, 28)'>PREMIUM VERSION </font>".."- "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
     Title.RichText = true;
     Title.TextColor3 = Color3.fromRGB(2, 240, 215)
     Title.TextSize = 15.000
