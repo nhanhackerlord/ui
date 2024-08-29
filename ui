@@ -42,11 +42,11 @@ do
         local Circle = Instance.new("ImageLabel")
         Circle.Parent = Button
         Circle.Name = "Circle"
-        Circle.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+        Circle.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
         Circle.BackgroundTransparency = 1.000
         Circle.ZIndex = 10
         Circle.Image = "rbxassetid://14346331443"
-        Circle.ImageColor3 = Color3.fromRGB(1, 133, 119)
+        Circle.ImageColor3 = Color3.fromRGB(2, 240, 215)
         Circle.ImageTransparency = 0.7
         Circle.Visible = false
         local NewX = X - Circle.AbsolutePosition.X
@@ -235,7 +235,7 @@ do
     local HeaderTop = Instance.new("Frame")
     HeaderTop.Name = "Top"
     HeaderTop.Parent = Main
-    HeaderTop.BackgroundColor3 = Color3.fromRGB(18, 15, 33)
+    HeaderTop.BackgroundColor3 = Color3.fromRGB(56,56,56)
     HeaderTop.BackgroundTransparency = 0
     HeaderTop.Position = UDim2.new(0, 0, 0, 0)
     HeaderTop.Size = UDim2.new(0, 520, 0, 35)
@@ -245,14 +245,14 @@ do
     
     Title.Name = "Title"
     Title.Parent = HeaderTop
-    Title.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Title.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Title.BackgroundTransparency = 1.000
     Title.Position = UDim2.new(0.05, 0, 0.04, 0)
     Title.Size = UDim2.new(0, 483, 0, 31)
     Title.Font = Enum.Font.GothamBold
-    Title.Text = "Mura Hub".."<font color='rgb(25, 39, 145)'>NEW VERSION </font>".."- "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+    Title.Text = "Mura Hub".."<font color='rgb(46, 184, 28)'>PREMIUM VERSION </font>".."- "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
     Title.RichText = true;
-    Title.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Title.TextColor3 = Color3.fromRGB(2, 240, 215)
     Title.TextSize = 15.000
     Title.TextWrapped = true
     Title.TextXAlignment = Enum.TextXAlignment.Left
@@ -261,7 +261,7 @@ do
     UICorner.Parent = Main
     Top.Name = "Top"
     Top.Parent = Main
-    Top.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Top.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Top.BackgroundTransparency = 1.000
     Top.Position = UDim2.new(0.021956088, 0, 0.1833337, 0)
     Top.Size = UDim2.new(0, 490, 0, 39)
@@ -270,7 +270,7 @@ do
     local ClickFrame = Instance.new("Frame")
     ClickFrame.Name = "Top"
     ClickFrame.Parent = Main
-    ClickFrame.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    ClickFrame.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     ClickFrame.BackgroundTransparency = 1
     ClickFrame.Position = UDim2.new(0, 0, 0, 0)
     ClickFrame.Size = UDim2.new(0, 520, 0, 50)
@@ -284,7 +284,7 @@ do
     TabContainer.Name = "TabContainer"
     TabContainer.Parent = TabHolder
     TabContainer.Active = true
-    TabContainer.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    TabContainer.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     TabContainer.BackgroundTransparency = 1.000
     TabContainer.Size = UDim2.new(0, 495, 0, 38)
     TabContainer.CanvasSize = UDim2.new(2, 0, 0, 0)
@@ -319,7 +319,7 @@ do
     Menu_Setting.Size = UDim2.new(0, 25, 0, 25)
     Menu_Setting.Image = "http://www.roblox.com/asset/?id=108339940437949"
     
-    Menu_Setting.ImageColor3 = Color3.fromRGB(1, 133, 119)
+    Menu_Setting.ImageColor3 = Color3.fromRGB(2, 240, 215)
     Menu_Setting.ZIndex = 10
     
     local Settings = Instance.new("ImageButton")
@@ -330,7 +330,7 @@ do
     Settings.Position = UDim2.new(0, 480, 0, 7)
     Settings.Size = UDim2.new(0, 25, 0, 25)
     Settings.Image = "http://www.roblox.com/asset/?id=108339940437949"
-    Settings.ImageColor3 = Color3.fromRGB(1, 133, 119)
+    Settings.ImageColor3 = Color3.fromRGB(2, 240, 215)
     Settings.ZIndex = 10
     
     local UserImageCorner1 = Instance.new("UICorner")
@@ -354,7 +354,7 @@ do
     MainPage.Parent = Main
     MainPage.ClipsDescendants = true
     MainPage.AnchorPoint = Vector2.new(0,0)
-    MainPage.BackgroundColor3 = Color3.fromRGB(18, 15, 33)
+    MainPage.BackgroundColor3 = Color3.fromRGB(56,56,56)
     MainPage.Position = UDim2.new(0, -250, 0, 50)
     MainPage.BackgroundTransparency = 0
     MainPage.Size = UDim2.new(0, 240, 0, 240)
@@ -408,7 +408,7 @@ do
     Line.Name = "Line"
     Line.Parent = PlayerInfoFrame
     Line.AnchorPoint = Vector2.new(0.5, 0.5)
-    Line.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Line.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Line.BorderSizePixel = 0
     Line.BackgroundTransparency = 1
     Line.Position = UDim2.new(0.5, 0, 0.311723471, 0)
@@ -432,7 +432,7 @@ do
     ImageLabel.Parent = PlayerInfoFrame
     ImageLabel.Active = true
     ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-    ImageLabel.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    ImageLabel.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     ImageLabel.BackgroundTransparency = 1
     ImageLabel.BorderSizePixel = 0
     ImageLabel.Position = UDim2.new(0, 40, 0, 45)
@@ -449,12 +449,12 @@ do
     Name.Name = "Name"
     Name.Parent = PlayerInfoFrame
     Name.Active = true
-    Name.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Name.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Name.BackgroundTransparency = 1.000
     Name.Position = UDim2.new(0.22916666, 0, 0, 0)
     Name.Size = UDim2.new(0, 150, 0, 27)
     Name.Font = Enum.Font.GothamBold
-    Name.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Name.TextColor3 = Color3.fromRGB(2, 240, 215)
     Name.TextSize = 12.000
     Name.Text = game.Players.LocalPlayer.Name.. " ("..game.Players.LocalPlayer.DisplayName..")"
     Name.TextXAlignment = Enum.TextXAlignment.Left
@@ -462,26 +462,26 @@ do
     Lvl.Name = "Lvl"
     Lvl.Parent = PlayerInfoFrame
     Lvl.Active = true
-    Lvl.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Lvl.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Lvl.BackgroundTransparency = 1.000
     Lvl.Position = UDim2.new(0, 85, 0.113057934, 0)
     Lvl.Size = UDim2.new(0, 200, 0, 27)
     Lvl.TextTransparency = 0.8
     Lvl.Font = Enum.Font.GothamBold
-    Lvl.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Lvl.TextColor3 = Color3.fromRGB(2, 240, 215)
     Lvl.TextSize = 10.000
     Lvl.TextXAlignment = Enum.TextXAlignment.Left
     
     Fruit.Name = "Fruit"
     Fruit.Parent = PlayerInfoFrame
     Fruit.Active = true
-    Fruit.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Fruit.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Fruit.BackgroundTransparency = 1.000
     Fruit.Position = UDim2.new(0, 85, 0.199820146, 0)
     Fruit.Size = UDim2.new(0, 200, 0, 27)
     Fruit.Font = Enum.Font.GothamBold
     Fruit.TextTransparency = 0.8
-    Fruit.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Fruit.TextColor3 = Color3.fromRGB(2, 240, 215)
     Fruit.TextSize = 10.000
     Fruit.TextXAlignment = Enum.TextXAlignment.Left
     
@@ -515,7 +515,7 @@ do
     HealthText.Name = "HealthText"
     HealthText.Parent = HealthBar
     HealthText.Active = true
-    HealthText.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    HealthText.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     HealthText.BackgroundTransparency = 1.000
     HealthText.Position = UDim2.new(0.0260000005, 0, 0.100000001, 0)
     HealthText.Size = UDim2.new(0, 300, 0, 22)
@@ -561,7 +561,7 @@ do
     StaminaText.Name = "StaminaText"
     StaminaText.Parent = StaminaBar
     StaminaText.Active = true
-    StaminaText.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    StaminaText.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     StaminaText.BackgroundTransparency = 1.000
     StaminaText.Position = UDim2.new(0.0260000005, 0, 0.100000001, 0)
     StaminaText.Size = UDim2.new(0, 300, 0, 22)
@@ -592,7 +592,7 @@ do
     Beli.Name = "Beli"
     Beli.Parent = PlayerInfoFrame
     Beli.Active = true
-    Beli.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Beli.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Beli.BackgroundTransparency = 1.000
     Beli.Position = UDim2.new(0.018749997, 0, 0.62897433, 0)
     Beli.Size = UDim2.new(0, 200, 0, 27)
@@ -604,7 +604,7 @@ do
     Fragment.Name = "Fragment"
     Fragment.Parent = PlayerInfoFrame
     Fragment.Active = true
-    Fragment.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Fragment.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Fragment.BackgroundTransparency = 1.000
     Fragment.Position = UDim2.new(0.018749997, 0, 0.695191059, 0)
     Fragment.Size = UDim2.new(0, 200, 0, 25)
@@ -618,7 +618,7 @@ do
     Bounty.Name = "Bounty"
     Bounty.Parent = PlayerInfoFrame
     Bounty.Active = true
-    Bounty.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Bounty.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Bounty.BackgroundTransparency = 1.000
     Bounty.Position = UDim2.new(0.018749997, 0, 0.752607787, 0)
     Bounty.Size = UDim2.new(0, 200, 0, 27)
@@ -674,7 +674,7 @@ do
     SettingFrame.Parent = Main
     SettingFrame.ClipsDescendants = true
     SettingFrame.AnchorPoint = Vector2.new(0,0)
-    SettingFrame.BackgroundColor3 = Color3.fromRGB(18, 15, 33)
+    SettingFrame.BackgroundColor3 = Color3.fromRGB(56,56,56)
     SettingFrame.Position = UDim2.new(0, -250, 0, 50)
     SettingFrame.BackgroundTransparency = 0
     SettingFrame.Size = UDim2.new(0, 210, 0, 240)
@@ -711,7 +711,7 @@ do
     StaminaText.Name = "StaminaText"
     StaminaText.Parent = SettingFrame
     StaminaText.Active = true
-    StaminaText.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    StaminaText.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     StaminaText.BackgroundTransparency = 1.000
     StaminaText.Position = UDim2.new(0.0260000005, 0, 0.00000001, 0)
     StaminaText.Size = UDim2.new(0, 200, 0, 22)
@@ -739,14 +739,14 @@ do
     
     Text2.Parent = Butn2
     Text2.AnchorPoint = Vector2.new(0.5, 0.5)
-    Text2.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Text2.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Text2.BackgroundTransparency = 1.000
     Text2.Position = UDim2.new(0.5, 0, 0.5, 0)
     Text2.Size = UDim2.new(0, 40, 0, 12)
     Text2.ZIndex = 16
     Text2.Font = Enum.Font.GothamBold
     Text2.Text = "Mura Hub Never Die !"
-    Text2.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Text2.TextColor3 = Color3.fromRGB(2, 240, 215)
     Text2.TextSize = 14.000
     
     Textbtn2.Parent = Butn2
@@ -759,7 +759,7 @@ do
     Textbtn2.AutoButtonColor = false
     Textbtn2.Font = Enum.Font.Gotham
     Textbtn2.Text = ""
-    Textbtn2.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Textbtn2.TextColor3 = Color3.fromRGB(2, 240, 215)
     Textbtn2.TextSize = 14.000
     
     Textbtn2.MouseEnter:Connect(function()
@@ -812,14 +812,14 @@ do
     
     Textlavel3.Parent = Butn3
     Textlavel3.AnchorPoint = Vector2.new(0.5, 0.5)
-    Textlavel3.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Textlavel3.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Textlavel3.BackgroundTransparency = 1.000
     Textlavel3.Position = UDim2.new(0.5, 0, 0.5, 0)
     Textlavel3.Size = UDim2.new(0, 40, 0, 12)
     Textlavel3.ZIndex = 16
     Textlavel3.Font = Enum.Font.GothamBold
     Textlavel3.Text = "GOD MODE (Bugs)"
-    Textlavel3.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Textlavel3.TextColor3 = Color3.fromRGB(2, 240, 215)
     Textlavel3.TextSize = 14.000
     
     Texbob3.Parent = Butn3
@@ -832,7 +832,7 @@ do
     Texbob3.AutoButtonColor = false
     Texbob3.Font = Enum.Font.Gotham
     Texbob3.Text = ""
-    Texbob3.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Texbob3.TextColor3 = Color3.fromRGB(2, 240, 215)
     Texbob3.TextSize = 14.000
     
     Texbob3.MouseEnter:Connect(function()
@@ -899,14 +899,14 @@ do
     
     Textlval3.Parent = Buton4
     Textlval3.AnchorPoint = Vector2.new(0.5, 0.5)
-    Textlval3.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Textlval3.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Textlval3.BackgroundTransparency = 1.000
     Textlval3.Position = UDim2.new(0.5, 0, 0.5, 0)
     Textlval3.Size = UDim2.new(0, 40, 0, 12)
     Textlval3.ZIndex = 16
     Textlval3.Font = Enum.Font.GothamBold
     Textlval3.Text = "DESTROY GUI"
-    Textlval3.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Textlval3.TextColor3 = Color3.fromRGB(2, 240, 215)
     Textlval3.TextSize = 14.000
     
     Texbslb4.Parent = Buton4
@@ -919,7 +919,7 @@ do
     Texbslb4.AutoButtonColor = false
     Texbslb4.Font = Enum.Font.Gotham
     Texbslb4.Text = ""
-    Texbslb4.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Texbslb4.TextColor3 = Color3.fromRGB(2, 240, 215)
     Texbslb4.TextSize = 14.000
     
     Texbslb4.MouseEnter:Connect(function()
@@ -976,7 +976,7 @@ do
     UICorner_Tab.Parent = FrameTab
     Tab.Name = "Tab"
     Tab.Parent = TabContainer
-    Tab.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Tab.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Tab.Size = UDim2.new(0, 114, 0, 30)
     Tab.BackgroundTransparency = 0
     Tab.Text = ""
@@ -990,7 +990,7 @@ do
     local ImageLabel1 = Instance.new("ImageLabel")
     ImageLabel1.Name = "ImageLabel"
     ImageLabel1.Parent = Tab
-    ImageLabel1.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    ImageLabel1.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     ImageLabel1.BackgroundTransparency = 1.000
     ImageLabel1.Position = UDim2.new(0, 5, 0.2, 0)
     ImageLabel1.Size = UDim2.new(0, 20, 0, 20)
@@ -998,7 +998,7 @@ do
     local ImageLabel = Instance.new("ImageLabel")
     ImageLabel.Name = "ImageLabel"
     ImageLabel.Parent = Tab
-    ImageLabel.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    ImageLabel.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     ImageLabel.BackgroundTransparency = 1.000
     ImageLabel.Position = UDim2.new(0, 5, 0.2, 0)
     ImageLabel.Size = UDim2.new(0, 20, 0, 20)
@@ -1011,12 +1011,12 @@ do
     UiToggle_UiStroke901.Thickness = 2
     UiToggle_UiStroke901.Name = "UiToggle_UiStroke901"
     UiToggle_UiStroke901.Parent = Tab
-    TextLabel.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    TextLabel.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     TextLabel.BackgroundTransparency = 1.000
     TextLabel.Position = UDim2.new(0.252105269, 0, 0.100000001, 0)
     TextLabel.Size = UDim2.new(0, 10, 0, 27)
     TextLabel.Font = Enum.Font.GothamBold
-    TextLabel.TextColor3 = Color3.fromRGB(1, 133, 119)
+    TextLabel.TextColor3 = Color3.fromRGB(2, 240, 215)
     TextLabel.TextSize = 12.300
     TextLabel.TextXAlignment = Enum.TextXAlignment.Left
     TextLabel.TextTransparency = 0.200
@@ -1029,7 +1029,7 @@ do
     local UIPadding_5 = Instance.new("UIPadding")
     Page.Name = "Page"
     Page.Parent = Bottom
-    Page.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Page.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Page.BackgroundTransparency = 1.000
     Page.Size = UDim2.new(0, 500, 0, 300)
     Page.ScrollBarThickness = 0
@@ -1039,7 +1039,7 @@ do
     Left.Name = "Left"
     Left.Parent = Page
     Left.Active = true
-    Left.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Left.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Left.BackgroundTransparency = 1
     Left.Size = UDim2.new(0, 240, 0, 260)
     Left.ScrollBarThickness = 0
@@ -1047,7 +1047,7 @@ do
     Right.Name = "Right"
     Right.Parent = Page
     Right.Active = true
-    Right.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Right.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Right.BackgroundTransparency = 1
     Right.Size = UDim2.new(0, 240, 0, 260)
     Right.ScrollBarThickness = 0
@@ -1068,10 +1068,10 @@ do
     if S == false then
     S = true
     Page.Visible = true
-    TextLabel.TextColor3 = Color3.fromRGB(1, 133, 119)
+    TextLabel.TextColor3 = Color3.fromRGB(2, 240, 215)
     TextLabel.TextTransparency = 0
     ImageLabel.ImageTransparency = 0
-    ImageLabel.ImageColor3 = Color3.fromRGB(1, 133, 119)
+    ImageLabel.ImageColor3 = Color3.fromRGB(2, 240, 215)
     FrameTab.Size = UDim2.new(0, 40, 0, 2)
     FrameTab.Visible = true
     end
@@ -1084,7 +1084,7 @@ do
         x.TextLabel,
         TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
         {
-          TextColor3 = Color3.fromRGB(1, 133, 119)}
+          TextColor3 = Color3.fromRGB(2, 240, 215)}
       ):Play()
       TweenService:Create(
         x.TextLabel,
@@ -1178,7 +1178,7 @@ do
     local UIGradient_S = Instance.new("UIGradient")
     Section.Name = "Section"
     Section.Parent = GetType(side)
-    Section.BackgroundColor3 = Color3.fromRGB(18, 15, 33)
+    Section.BackgroundColor3 = Color3.fromRGB(56,56,56)
     Section.ClipsDescendants = true
     Section.Size = UDim2.new(0, 240, 0, 343)
     Section.BackgroundTransparency = 0
@@ -1186,7 +1186,7 @@ do
     UICorner_5.Parent = Section
     Top_2.Name = "Top"
     Top_2.Parent = Section
-    Top_2.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Top_2.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Top_2.BackgroundTransparency = 1.000
     Top_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
     Top_2.Size = UDim2.new(0, 238, 0, 8)
@@ -1199,7 +1199,7 @@ do
     
     SectionContainer.Name = "SectionContainer"
     SectionContainer.Parent = Top_2
-    SectionContainer.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    SectionContainer.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     SectionContainer.BackgroundTransparency = 1.000
     SectionContainer.BorderSizePixel = 0
     SectionContainer.Position = UDim2.new(0, 0, 0.716416223, 0)
@@ -1207,7 +1207,7 @@ do
     
     SectionContainer_2.Name = "SectionContainer_2"
     SectionContainer_2.Parent = Top_2
-    SectionContainer_2.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    SectionContainer_2.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     SectionContainer_2.BackgroundTransparency = 1.000
     SectionContainer_2.BorderSizePixel = 0
     SectionContainer_2.Position = UDim2.new(0, 0, 0.716416223, 0)
@@ -1230,7 +1230,7 @@ do
     
     Label.Name = "Label"
     Label.Parent = SectionContainer
-    Label.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Label.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Label.BackgroundTransparency = 1.000
     Label.Size = UDim2.new(0, 200, 0, 20)
     Label.Font = Enum.Font.GothamSemibold
@@ -1285,7 +1285,7 @@ do
     Text.ZIndex = 16
     Text.Font = Enum.Font.GothamBold
     Text.Text = text
-    Text.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Text.TextColor3 = Color3.fromRGB(2, 240, 215)
     Text.TextSize = 12.000
     function textas.Refresh(newtext)
     Text.Text = newtext
@@ -1305,7 +1305,7 @@ do
     Text.Name = "Text"
     Text.Parent = Label
     Text.AnchorPoint = Vector2.new(0.5, 0.5)
-    Text.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Text.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Text.BackgroundTransparency = 1.000
     Text.Position = UDim2.new(0.5, 0, 0.5, 0)
     Text.Size = UDim2.new(0, 53, 0, 12)
@@ -1342,14 +1342,14 @@ do
     UICorner_21.Parent = Button_2
     TextLabel_4.Parent = Button_2
     TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
-    TextLabel_4.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    TextLabel_4.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     TextLabel_4.BackgroundTransparency = 1.000
     TextLabel_4.Position = UDim2.new(0.5, 0, 0.5, 0)
     TextLabel_4.Size = UDim2.new(0, 40, 0, 12)
     TextLabel_4.ZIndex = 16
     TextLabel_4.Font = Enum.Font.GothamBold
     TextLabel_4.Text = tostring(Title)
-    TextLabel_4.TextColor3 = Color3.fromRGB(1, 133, 119)
+    TextLabel_4.TextColor3 = Color3.fromRGB(2, 240, 215)
     TextLabel_4.TextSize = 12.000
     TextButton_4.Parent = Button_2
     TextButton_4.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
@@ -1361,7 +1361,7 @@ do
     TextButton_4.AutoButtonColor = false
     TextButton_4.Font = Enum.Font.Gotham
     TextButton_4.Text = ""
-    TextButton_4.TextColor3 = Color3.fromRGB(1, 133, 119)
+    TextButton_4.TextColor3 = Color3.fromRGB(2, 240, 215)
     TextButton_4.TextSize = 14.000
     TextButton_4.MouseButton1Click:Connect(
       function()
@@ -1402,7 +1402,7 @@ do
     
     Button.Name = "Button"
     Button.Parent = SectionContainer
-    Button.BackgroundColor3 = Color3.fromRGB(18, 15, 33)
+    Button.BackgroundColor3 = Color3.fromRGB(56,56,56)
     Button.Size = UDim2.new(0.975000024, 0, 0, 30)
     Button.ZIndex = 16
     Button.BackgroundTransparency = 0
@@ -1418,14 +1418,14 @@ do
     
     TextLabel_3.Parent = Button
     TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
-    TextLabel_3.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    TextLabel_3.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     TextLabel_3.BackgroundTransparency = 1.000
     TextLabel_3.Position = UDim2.new(0.5, 0, 0.5, 0)
     TextLabel_3.Size = UDim2.new(0, 40, 0, 12)
     TextLabel_3.ZIndex = 16
     TextLabel_3.Font = Enum.Font.GothamBold
     TextLabel_3.Text = Name
-    TextLabel_3.TextColor3 = Color3.fromRGB(1, 133, 119)
+    TextLabel_3.TextColor3 = Color3.fromRGB(2, 240, 215)
     TextLabel_3.TextSize = 10.000
     
     TextButton.Parent = Button
@@ -1438,7 +1438,7 @@ do
     TextButton.AutoButtonColor = false
     TextButton.Font = Enum.Font.Gotham
     TextButton.Text = ""
-    TextButton.TextColor3 = Color3.fromRGB(1, 133, 119)
+    TextButton.TextColor3 = Color3.fromRGB(2, 240, 215)
     TextButton.TextSize = 14.000
     
     TextButton.MouseEnter:Connect(function()
@@ -1487,7 +1487,7 @@ do
     local TextButton = Instance.new("TextButton")
     MainToggle.Name = "MainToggle"
     MainToggle.Parent = SectionContainer
-    MainToggle.BackgroundColor3 = Color3.fromRGB(18, 15, 33)
+    MainToggle.BackgroundColor3 = Color3.fromRGB(56,56,56)
     MainToggle.BackgroundTransparency = 0
     MainToggle.BorderSizePixel = 0
     MainToggle.ClipsDescendants = true
@@ -1504,14 +1504,14 @@ do
     UICorner.Parent = MainToggle
     Text.Name = "Text"
     Text.Parent = MainToggle
-    Text.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Text.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Text.BackgroundTransparency = 1.000
     Text.Position = UDim2.new(0, 10, 0, 10)
     Text.Size = UDim2.new(0, 100, 0, 12)
     Text.ZIndex = 16
     Text.Font = Enum.Font.GothamBold
     Text.Text = Name
-    Text.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Text.TextColor3 = Color3.fromRGB(2, 240, 215)
     Text.TextSize = 12.000
     Text.TextTransparency = 0.4
     Text.TextXAlignment = Enum.TextXAlignment.Left
@@ -1549,7 +1549,7 @@ do
     TextButton.AutoButtonColor = false
     TextButton.Font = Enum.Font.Gotham
     TextButton.Text = ""
-    TextButton.TextColor3 = Color3.fromRGB(1, 133, 119)
+    TextButton.TextColor3 = Color3.fromRGB(2, 240, 215)
     TextButton.TextSize = 14.000
     TextButton.MouseButton1Click:Connect(
       function()
@@ -1622,7 +1622,7 @@ do
     local HeadTitle = Instance.new("TextBox")
     Textbox.Name = "Textbox"
     Textbox.Parent = SectionContainer
-    Textbox.BackgroundColor3 = Color3.fromRGB(18, 15, 33)
+    Textbox.BackgroundColor3 = Color3.fromRGB(56,56,56)
     Textbox.BackgroundTransparency = 0
     Textbox.BorderSizePixel = 0
     Textbox.ClipsDescendants = true
@@ -1639,14 +1639,14 @@ do
     UICorner_16.Parent = Textbox
     Text_5.Name = "Text"
     Text_5.Parent = Textbox
-    Text_5.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Text_5.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Text_5.BackgroundTransparency = 1.000
     Text_5.Position = UDim2.new(0, 10, 0, 10)
     Text_5.Size = UDim2.new(0, 43, 0, 12)
     Text_5.ZIndex = 16
     Text_5.Font = Enum.Font.GothamBold
     Text_5.Text = Name
-    Text_5.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Text_5.TextColor3 = Color3.fromRGB(2, 240, 215)
     Text_5.TextSize = 11.000
     Text_5.TextXAlignment = Enum.TextXAlignment.Left
     TextboxHoler.Name = "TextboxHoler"
@@ -1670,10 +1670,10 @@ do
     HeadTitle.Size = UDim2.new(0, 100, 0, 28)
     HeadTitle.ZIndex = 16
     HeadTitle.Font = Enum.Font.GothamBold
-    HeadTitle.PlaceholderColor3 = Color3.fromRGB(1, 133, 119)
+    HeadTitle.PlaceholderColor3 = Color3.fromRGB(2, 240, 215)
     HeadTitle.PlaceholderText = Placeholder
     HeadTitle.Text = ""
-    HeadTitle.TextColor3 = Color3.fromRGB(1, 133, 119)
+    HeadTitle.TextColor3 = Color3.fromRGB(2, 240, 215)
     HeadTitle.TextSize = 13.000
     HeadTitle.TextTransparency = 0
     HeadTitle.TextXAlignment = Enum.TextXAlignment.Center
@@ -1706,7 +1706,7 @@ do
     
     Dropdown.Name = "Dropdown"
     Dropdown.Parent = SectionContainer
-    Dropdown.BackgroundColor3 = Color3.fromRGB(18, 15, 33)
+    Dropdown.BackgroundColor3 = Color3.fromRGB(56,56,56)
     Dropdown.BackgroundTransparency = 0
     Dropdown.ClipsDescendants = true
     Dropdown.Size = UDim2.new(0, 228, 0, 30)
@@ -1952,7 +1952,7 @@ do
     local UIPadding_3 = Instance.new("UIPadding")
     MainDropDown.Name = "MainDropDown"
     MainDropDown.Parent = SectionContainer
-    MainDropDown.BackgroundColor3 = Color3.fromRGB(18, 15, 33)
+    MainDropDown.BackgroundColor3 = Color3.fromRGB(56,56,56)
     MainDropDown.BackgroundTransparency = 0
     MainDropDown.BorderSizePixel = 0
     MainDropDown.ClipsDescendants = true
@@ -1969,7 +1969,7 @@ do
     UICorner_7.Parent = MainDropDown
     MainDropDown_2.Name = "MainDropDown"
     MainDropDown_2.Parent = MainDropDown
-    MainDropDown_2.BackgroundColor3 = Color3.fromRGB(18, 15, 33)
+    MainDropDown_2.BackgroundColor3 = Color3.fromRGB(56,56,56)
     MainDropDown_2.BackgroundTransparency = 0
     MainDropDown_2.BorderSizePixel = 0
     MainDropDown_2.ClipsDescendants = true
@@ -1979,7 +1979,7 @@ do
     UICorner_8.Parent = MainDropDown_2
     v.Name = "v"
     v.Parent = MainDropDown_2
-    v.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    v.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     v.BackgroundTransparency = 1.000
     v.BorderSizePixel = 0
     v.Size = UDim2.new(1, 0, 1, 0)
@@ -1987,7 +1987,7 @@ do
     v.AutoButtonColor = false
     v.Font = Enum.Font.GothamBold
     v.Text = ""
-    v.TextColor3 = Color3.fromRGB(1, 133, 119)
+    v.TextColor3 = Color3.fromRGB(2, 240, 215)
     v.TextSize = 12.000
     function getpro()
     if default then
@@ -2005,14 +2005,14 @@ do
     end
     Text_2.Name = "Text"
     Text_2.Parent = MainDropDown_2
-    Text_2.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Text_2.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Text_2.BackgroundTransparency = 1.000
     Text_2.Position = UDim2.new(0, 10, 0, 10)
     Text_2.Size = UDim2.new(0, 62, 0, 12)
     Text_2.ZIndex = 16
     Text_2.Font = Enum.Font.GothamBold
     Text_2.Text = getpro()
-    Text_2.TextColor3 = Color3.fromRGB(1, 133, 119)
+    Text_2.TextColor3 = Color3.fromRGB(2, 240, 215)
     Text_2.TextSize = 12.000
     Text_2.TextXAlignment = Enum.TextXAlignment.Left
     ImageButton.Parent = MainDropDown_2
@@ -2026,7 +2026,7 @@ do
     Scroll_Items.Name = "Scroll_Items"
     Scroll_Items.Parent = MainDropDown
     Scroll_Items.Active = true
-    Scroll_Items.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    Scroll_Items.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     Scroll_Items.BackgroundTransparency = 1.000
     Scroll_Items.BorderSizePixel = 0
     Scroll_Items.Position = UDim2.new(0, 0, 0, 35)
@@ -2086,7 +2086,7 @@ do
     _5.AutoButtonColor = false
     _5.Font = Enum.Font.GothamBold
     _5.Text = Text
-    _5.TextColor3 = Color3.fromRGB(1, 133, 119)
+    _5.TextColor3 = Color3.fromRGB(2, 240, 215)
     _5.TextSize = 12.000
     UICorner_9.CornerRadius = UDim.new(0, 3)
     UICorner_9.Parent = _5
@@ -2150,7 +2150,7 @@ do
     
     SliderFrame.Name = "SliderFrame"
     SliderFrame.Parent = SectionContainer
-    SliderFrame.BackgroundColor3 = Color3.fromRGB(18, 15, 33)
+    SliderFrame.BackgroundColor3 = Color3.fromRGB(56,56,56)
     SliderFrame.Position = UDim2.new(0.109489053, 0, 0.708609283, 0)
     SliderFrame.Size = UDim2.new(0.975000024, 0, 0, 45)
     SliderFrame.BackgroundTransparency = 0
@@ -2167,19 +2167,19 @@ do
     
     LabelNameSlider.Name = "LabelNameSlider"
     LabelNameSlider.Parent = SliderFrame
-    LabelNameSlider.BackgroundColor3 = Color3.fromRGB(1, 133, 119)
+    LabelNameSlider.BackgroundColor3 = Color3.fromRGB(2, 240, 215)
     LabelNameSlider.BackgroundTransparency = 1.000
     LabelNameSlider.Position = UDim2.new(0.0729926974, 0, 0.0396823473, 0)
     LabelNameSlider.Size = UDim2.new(0, 182, 0, 25)
     LabelNameSlider.Font = Enum.Font.GothamBold
     LabelNameSlider.Text = tostring(text)
-    LabelNameSlider.TextColor3 = Color3.fromRGB(1, 133, 119)
+    LabelNameSlider.TextColor3 = Color3.fromRGB(2, 240, 215)
     LabelNameSlider.TextSize = 11.000
     LabelNameSlider.TextXAlignment = Enum.TextXAlignment.Left
     
     ShowValueFrame.Name = "ShowValueFrame"
     ShowValueFrame.Parent = SliderFrame
-    ShowValueFrame.BackgroundColor3 = Color3.fromRGB(18, 15, 33)
+    ShowValueFrame.BackgroundColor3 = Color3.fromRGB(56,56,56)
     ShowValueFrame.BackgroundTransparency = 1
     ShowValueFrame.Position = UDim2.new(0.733576655, 0, 0.0656082779, 0)
     ShowValueFrame.Size = UDim2.new(0, 58, 0, 21)
@@ -2192,7 +2192,7 @@ do
     CustomValue.Size = UDim2.new(0, 55, 0, 21)
     CustomValue.Font = Enum.Font.GothamBold
     CustomValue.Text = "50"
-    CustomValue.TextColor3 = Color3.fromRGB(1, 133, 119)
+    CustomValue.TextColor3 = Color3.fromRGB(2, 240, 215)
     CustomValue.TextSize = 11.000
     
     ShowValueFrameUICorner.CornerRadius = UDim.new(0, 4)
